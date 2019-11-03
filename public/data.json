@@ -1,0 +1,34 @@
+{
+  "frontend": {
+    "description": "front-end technologies",
+    "data": {
+      "Angular": "https://img.stackshare.io/service/5445/cb8U-gL6_400x400.jpg",
+      "jQuery": "https://img.stackshare.io/service/1021/jquery_avatar.png"
+    }
+  },
+  "backend": {
+    "description": "back-end technologies",
+    "data": {
+      "Gin Gonic": "https://img.stackshare.io/service/4221/7894478.png",
+      "Echo": "https://avatars1.githubusercontent.com/u/2624634?s=200&v=4",
+      "Express": "https://img.stackshare.io/service/1163/hashtag.png"
+    }
+  },
+  "database": {
+    "description": "database, cache and cloud storage system",
+    "data": {
+      "Redis": "https://img.stackshare.io/service/1031/redis.png",
+      "PostgreSQL": "https://img.stackshare.io/service/1028/ASOhU5xJ.png",
+      "MongoDB": "https://img.stackshare.io/stack/232388/mongodb-generic.png"
+    }
+  },
+  "tools": {
+    "description": "IDE and editor",
+    "data": {
+      "GoLand": "https://img.stackshare.io/service/8004/CZjD2GYK_400x400.jpg",
+      "WebStorm": "https://img.stackshare.io/service/1455/icon_WebStorm.png",
+      "Sublime Text": "https://img.stackshare.io/service/642/SublimeText_Master_012312_icon.png",
+      "vsCode": "https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png"
+    }
+  }
+}
