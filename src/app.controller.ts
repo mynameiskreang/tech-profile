@@ -14,9 +14,14 @@ export class AppController {
   index(@Query() query): object {
     this.infoData = this.appService.getData();
     console.log(this.infoData.frontend.description);
-    for (let key in this.infoData.frontend.data) {
+    for (const key in this.infoData.frontend.data) {
       console.log(key, this.infoData.frontend.data[key]);
     }
-    return { title: 'K-Stack', body: { mastheadBrand: 'Tech-Stack' }, query: `Hello ${query.name || 'world'}` };
+    return {
+      title: 'K-Stack',
+      body: { mastheadBrand: 'Tech-Stack' },
+      frontend: this.infoData.frontend,
+      query: `Hello ${query.name || 'world'}`,
+    };
   }
 }

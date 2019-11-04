@@ -1,3 +1,9 @@
 .cover-container {
     max-width: 62em;
 }
+
+.card > img {
+    width: 80px;
+    padding: 40px 0px;
+    margin: 0 80px;
+}
