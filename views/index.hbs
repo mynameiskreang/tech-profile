@@ -46,35 +46,42 @@
         {{/each}}
       </div>
     {{/if}}
-    <h1 class="text-left border-bottom">
-      Main skill
-    </h1>
-    <div class="row">
-      <div class="col-4">
-        <div class="card">
-          <img src="https://dummyimage.com/286x180/000/fff" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+
+    {{#if backend}}
+      <h1 class="text-left border-bottom text-uppercase">
+        {{backend.description}}
+      </h1>
+      <div class="row">
+        {{#each backend.data as |val key|}}
+          <div class="col-4">
+            <div class="card">
+              <img src="{{val}}" class="card-img-top" alt="...">
+              <div class="card-body bg-dark">
+                <h5 class="card-title">{{key}}</h5>
+              </div>
+            </div>
           </div>
-        </div>
+        {{/each}}
       </div>
-      <div class="col-4">
-        <div class="card">
-          <img src="https://dummyimage.com/286x180/000/fff" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+    {{/if}}
+
+    {{#if database}}
+      <h1 class="text-left border-bottom text-uppercase">
+        {{database.description}}
+      </h1>
+      <div class="row">
+        {{#each database.data as |val key|}}
+          <div class="col-4">
+            <div class="card">
+              <img src="{{val}}" class="card-img-top" alt="...">
+              <div class="card-body bg-dark">
+                <h5 class="card-title">{{key}}</h5>
+              </div>
+            </div>
           </div>
-        </div>
+        {{/each}}
       </div>
-      <div class="col-4">
-        <div class="card">
-          <img src="https://dummyimage.com/286x180/000/fff" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{/if}}
   </main>
 
   <footer class="mastfoot mt-auto">

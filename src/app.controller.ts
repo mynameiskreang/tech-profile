@@ -13,14 +13,13 @@ export class AppController {
   @Render('index.hbs')
   index(@Query() query): object {
     this.infoData = this.appService.getData();
-    console.log(this.infoData.frontend.description);
-    for (const key in this.infoData.frontend.data) {
-      console.log(key, this.infoData.frontend.data[key]);
-    }
     return {
       title: 'K-Stack',
       body: { mastheadBrand: 'Tech-Stack' },
       frontend: this.infoData.frontend,
+      backend: this.infoData.backend,
+      database: this.infoData.database,
+      tools: this.infoData.tools,
       query: `Hello ${query.name || 'world'}`,
     };
   }

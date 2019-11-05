@@ -2,8 +2,16 @@
     max-width: 62em;
 }
 
+.card {
+    min-width: 220px;
+}
+
 .card > img {
     width: 80px;
     padding: 40px 0px;
-    margin: 0 80px;
+    margin: 0 auto;
+}
+
+h1.text-uppercase {
+    margin-top: 30px;
 }

@@ -15,7 +15,7 @@
     }
   },
   "database": {
-    "description": "database, cache and cloud storage system",
+    "description": "database",
     "data": {
       "Redis": "https://img.stackshare.io/service/1031/redis.png",
       "PostgreSQL": "https://img.stackshare.io/service/1028/ASOhU5xJ.png",
@@ -27,7 +27,6 @@
     "data": {
       "GoLand": "https://img.stackshare.io/service/8004/CZjD2GYK_400x400.jpg",
       "WebStorm": "https://img.stackshare.io/service/1455/icon_WebStorm.png",
-      "Sublime Text": "https://img.stackshare.io/service/642/SublimeText_Master_012312_icon.png",
       "vsCode": "https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png"
     }
   }
