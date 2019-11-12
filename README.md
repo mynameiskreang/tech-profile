@@ -127,3 +127,10 @@ export class AppController {
 แก้ที่ไฟล์ src/app.controller.ts
 
 อ่านเพิ่มเติมได้ที่ [nest-mvc](https://docs.nestjs.com/techniques/mvc)
+
+### Docker
+
+```shell script
+$ docker build -t tech-profile
+$ docker run -p 3000:3000 -network="host" -d tech-profile:lasted
+```
