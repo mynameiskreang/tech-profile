@@ -134,3 +134,10 @@ export class AppController {
 $ docker build -t tech-profile
 $ docker run -p 3000:3000 -network="host" -d tech-profile:lasted
 ```
+
+
+### self signed certificate
+
+```shell script
+$ openssl req -newkey rsa:2048 -nodes -keyout private-key.pem -x509 -days 365 -out public-certificate.pem
+```
