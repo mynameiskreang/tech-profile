@@ -26,7 +26,7 @@
     "@nestjs/platform-fastify": "^6.8.5",
     "fastify": "^2.10.0",
     "fastify-static": "^2.5.0",
-    "handlebars": "^4.5.1",
+    "handlebars": "^4.7.7",
     "hbs": "^4.0.6",
     "point-of-view": "^3.7.0",
     "reflect-metadata": "^0.1.13",
